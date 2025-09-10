@@ -1,0 +1,29 @@
+.header {
+  background-color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #2b6cb0;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+  color: #1a202c;
+}
