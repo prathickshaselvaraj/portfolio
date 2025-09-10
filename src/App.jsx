@@ -2,14 +2,14 @@
 import { Routes, Route } from 'react-router-dom';
 import Layout from './Layout';
 
-import Home from './components/Home';
-import About from './components/About';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import Resume from './components/Resume';
-import Blog from './components/Blog';
-import Contact from './components/Contact';
+import Home from './components/Home.jsx';
+import About from './components/About.jsx';
+import Projects from './components/Projects.jsx';
+import Skills from './components/Skills.jsx';
+import Experience from './components/Experience.jsx';
+import Resume from './components/Resume.jsx';
+import Blog from './components/Blog.jsx';
+import Contact from './components/Contact.jsx';
 
 const App = () => {
   return (
